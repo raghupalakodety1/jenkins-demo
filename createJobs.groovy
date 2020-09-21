@@ -6,13 +6,13 @@ pipelineJob('pipelineJob') {
         }
     }
 }
-pipelineJob('theme-park-job') {
+pipelineJob('assecor-backend-job') {
     definition {
         cpsScm {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/tkgregory/spring-boot-api-example.git'
+                        url 'https://gitlab.com/raghu.palakodety/assecor-backend.git'
                     }
                     branch 'master'
                 }
